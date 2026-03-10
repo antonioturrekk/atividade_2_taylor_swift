@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: var(--cream);
+    background-color: rgb(255, 102, 0) ;
     margin: 0;
     font-family: 'Helvetica Neue', sans-serif;
     color: #333;
@@ -46,7 +46,6 @@ header {
     letter-spacing: 1px;
 }
 
-/* Título Principal */
 .main-title {
     text-align: center;
     margin-top: 40px;
@@ -54,7 +53,6 @@ header {
     color: var(--nyu-purple);
 }
 
-/* Grid de Cards */
 .noticias {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -85,29 +83,26 @@ header {
     object-fit: cover;
 }
 
-/* Cores específicas dos cards */
 .card-lover { border-bottom: 5px solid var(--lover-pink); }
 .card-midnights { border-bottom: 5px solid var(--midnights-blue); }
 .card-reputation { border-bottom: 5px solid var(--rep-black); }
 .card-red { border-bottom: 5px solid var(--red-classic); }
+.card-folklore { border-bottom: 5px solid var(--folklore-grey); }
 
-/* Rodapé */
 footer {
     text-align: center;
     padding: 20px;
-    background: #333;
+    background: var(--nyu-purple);
     color: white;
     margin-top: 50px;
 }
 
-/* ESTILIZAÇÃO DO GIF (Canto Inferior Direito) */
 :root {
     --nyu-purple: #572983;
     --gold: #d4af37;
     --cream: #fdfaf5;
 }
 
-/* Estilo para a Galeria de Fotos */
 .galeria-fotos {
     display: flex;
     justify-content: center;
@@ -122,8 +117,8 @@ footer {
     overflow: hidden;
     border-radius: 15px;
     border: 2px solid var(--gold);
-    height: 300px; /* Altura fixa para manter o padrão */
-    transition: flex 0.5s ease; /* Efeito sanfona */
+    height: 300px; 
+    transition: flex 0.5s ease; 
 }
 
 .foto-item img {
