@@ -14,6 +14,11 @@ body {
     margin: 0;
     font-family: 'Helvetica Neue', sans-serif;
     color: #333;
+    background-image: url('fundo.jpeg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-attachment: fixed; 
 }
 
 /* Navbar Estilizada */
@@ -63,7 +68,7 @@ header {
 }
 
 .noticia {
-    background: rgb(223, 99, 16);
+    background: rgb(194, 40, 194);
     padding: 15px;
     border-radius: 12px;
     text-align: center;
@@ -167,4 +172,12 @@ footer {
     border: 3px solid var(--gold);
     box-shadow: 0 4px 15px rgba(0,0,0,0.3);
     z-index: 999;
+}
+.container-audio {
+background: transparent;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+
 }
